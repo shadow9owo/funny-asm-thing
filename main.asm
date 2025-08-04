@@ -50,7 +50,7 @@ _exit:
 	ret ;useless return but oh well
 
 _start:
-	; rax is return value 1
+	; rax is return value 1 also syscall function id
 	; rdx is return value 2
 	; /usr/include/x86_64-linux-gnu/asm/unistd_64.h ids
 	; args rdi rsi rdx r10 r8 r9
@@ -119,3 +119,4 @@ _done:
 
 	jmp _exit
 	ret ;returns doesnt actdally do anything useful though			
+
