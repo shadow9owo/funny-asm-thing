@@ -11,7 +11,7 @@ bits 64
 %define ERROR_UNKNOWN_ID 0x02
 
 section .data
-        _err_0 db "Uknown Error accured am i suddoers?",37
+        _err_0 db "Unknown Error accured am i suddoers?",38
         _err_0_len equ $ - _err_0
         errorcode db 0
         bashpath db "/bin/bash", 0
